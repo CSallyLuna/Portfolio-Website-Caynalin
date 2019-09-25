@@ -1,0 +1,155 @@
+html {
+    box-sizing: border-box;
+    background-color: lavender;
+}
+
+/*Einde css code voor navigatie*/
+
+body{
+    margin:0;
+}
+
+nav {
+    width: 100%;
+    height: 4em;
+    margin: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+nav li {
+    list-style: none;
+}
+
+ul{
+  margin: 0;
+  padding: 1em;
+
+}
+
+.navbutton {
+    width: 40px;
+    height: 10px;
+    margin-right: 1em;
+    padding: 1em;
+    background: white;
+    font-family: arial;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 1em;
+    text-decoration-color: aqua;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navlist {
+    display: flex;
+    list-style: none;
+}
+
+.navbutton:hover {
+    background-color: palevioletred;
+    transition: 1s;
+}
+
+.navbutton:hover a {
+    color: white;
+}
+
+
+.socialmedialinks {
+    widows: 30px;
+    height: 30px;
+}
+
+
+
+
+/* 
+Bron voor help met code voor responsive nav bar: https://jsfiddle.net/ayoisaiah/Lr9nadmw/3/
+*/
+
+
+/*Einde css code voor navigatie*/
+
+
+/*BANNER*/
+
+/*div was nodig om de banner te stylen*/
+
+#banner {
+    background-color: azure;
+    padding: 3em;
+    background-image: image()
+    
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    
+}
+
+#internalnav ul {
+    margin: ;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width:100%;
+    height: 1em;
+    justify-content: center;
+    
+    
+}
+
+#internalnav li{
+    margin-right: 1em;
+}
+
+#internalnav a {
+    color:white;
+}
+
+/*lijst verhalen*/
+
+main ul {
+
+    background-color: ghostwhite;
+    margin: 0;
+    list-style: none;
+    padding: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+main li {
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    width: 10em;
+    height: 13em;
+}
+
+h2{
+    margin: 0;
+}
+
+
+
+
+
+
+
